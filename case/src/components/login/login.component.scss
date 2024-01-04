@@ -4,16 +4,26 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+<<<<<<< HEAD
 	min-height: 100vh;
   background-color: linear-gradient(to bottom, #30200e, #4e3e1c, #b38b1d);
 
+=======
+	
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #30200e, #4e3e1c, #b38b1d);
+>>>>>>> 4ed2d5427fa5544ffc07e9b8961b3650d1a04a5f
 }
 .main{
 	width: 350px;
 	height: 500px;
 	background: rgb(172, 156, 20);
 	overflow: hidden;
+<<<<<<< HEAD
 	background: rgb(108, 76, 18);
+=======
+	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+>>>>>>> 4ed2d5427fa5544ffc07e9b8961b3650d1a04a5f
 	border-radius: 10px;
 	box-shadow: 5px 20px 50px #000;
 }
@@ -83,8 +93,16 @@ button:hover{
 	transform: translateY(-500px);
 }
 #samo:checked ~ .login label{
+<<<<<<< HEAD
 	transform: scale(1);
 }
 #samo:checked ~ .signup label{
 	transform: scale(.6);
 }
+=======
+	transform: scale(1);	
+}
+#samo:checked ~ .signup label{
+	transform: scale(.6);
+}
+>>>>>>> 4ed2d5427fa5544ffc07e9b8961b3650d1a04a5f
